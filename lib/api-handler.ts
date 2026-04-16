@@ -26,10 +26,11 @@ export function withErrorHandler(handler: Function) {
       let code = "INTERNAL_SERVER_ERROR";
 
       if (error instanceof z.ZodError) {
-        statusCode = 400;
-        message = error.errors.map(e => e.message).join(', ');
-        code = "VALIDATION_ERROR";
-      } else if (error instanceof APIError) {
+  statusCode = 400;
+  // Use .issues for better type safety and standardized access
+  message = error.issues.map(issue => issue.message).join(', ');
+  code = "VALIDATION_ERROR";
+} else if (error instanceof APIError) {
         statusCode = error.statusCode;
         message = error.message;
         code = error.code;
