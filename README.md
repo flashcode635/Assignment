@@ -4,9 +4,9 @@
 
 **Enterprise-Grade Task Management API with Role-Based Access Control**
 
-A production-ready full-stack application built with Next.js 16, featuring JWT authentication, RBAC, and RESTful API design.
+A production-ready full-stack application built with Next.js 16, featuring JWT authentication, RBAC, and RESTful API design with detailed documentaions.
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-tsk--mangr.vercel.app-000?style=for-the-badge&logo=vercel)](https://tsk-mangr.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/-Vercel-000?style=for-the-badge&logo=vercel)](https://vercel.com/docs)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Prisma](https://img.shields.io/badge/Prisma-7-2D3748?style=for-the-badge&logo=prisma)](https://www.prisma.io/)
